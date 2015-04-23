@@ -1,2 +1,2 @@
-# site-ffmg
-FF Mönchengladbach (FFMG) specific Gluon configuration.
+# site-ffniers
+FF Niersufer (FFNIERS) specific Gluon configuration.
