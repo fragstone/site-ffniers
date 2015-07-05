@@ -3,6 +3,7 @@ GLUON_SITE_PACKAGES := \
         gluon-alfred \
         gluon-announced \
         gluon-autoupdater \
+	gluon-config-mode-core \
         gluon-config-mode-hostname \
         gluon-config-mode-autoupdater \
         gluon-config-mode-mesh-vpn \
@@ -17,13 +18,15 @@ GLUON_SITE_PACKAGES := \
         gluon-next-node \
         gluon-mesh-vpn-fastd \
         gluon-radvd \
+	gluon-setup-mode \
         gluon-status-page \
         iwinfo \
         iptables \
         haveged
 
+GLUON_LANGS = en de
 
-DEFAULT_GLUON_RELEASE := 0.6.1
+DEFAULT_GLUON_RELEASE := 0.7.2tf
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
